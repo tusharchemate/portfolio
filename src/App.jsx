@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Tech from "./components/Tech";
+import Works from "./components/Works";
 
 const App = () => {
   return (
@@ -12,9 +13,15 @@ const App = () => {
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />
-          <About />
-          <Experience />
-          <Tech />
+        </div>
+        <About />
+        <Experience />
+        <Tech />
+        <Works />
+        {/* <Feedbacks /> */}
+        <div className="relative z-0">
+          {/* <Contact />
+          <StarsCanvas /> */}
         </div>
       </div>
     </BrowserRouter>

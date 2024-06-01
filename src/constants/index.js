@@ -13,11 +13,9 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
-  carrent,
-  jobit,
-  tripguide,
+  storylens,
+  amazon,
 } from "../assets";
 
 export const navLinks = [
@@ -182,67 +180,75 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Covid Tracker",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search and track worldwide covid cases. It provides real-time data and statistics to keep users informed and safe.",
+
+    tags: [
+      {
+        name: "java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "spring boot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image:
+      "https://user-images.githubusercontent.com/41479583/92441240-7c0b6c80-f1cb-11ea-8e2c-6e51c2c542fe.png",
+    source_code_link: "https://github.com/tusharchemate/Backend-Corona-Tracker",
+  },
+  {
+    name: "Amazon App",
+    description:
+      "Web application that enables users to search for products and make purchases directly from their current location. The app provides seamless shopping experience.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
       },
       {
         name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "redux",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: amazon,
+    source_code_link: "https://github.com/tusharchemate/amazon-clone",
   },
+
   {
-    name: "Job IT",
+    name: "Storylens",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A platform for sharing and discovering ed. content using short stories. Users can create and share engaging stories, and interact through likes, comments, and sharing.",
+
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "react-query",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "prisma",
         color: "pink-text-gradient",
       },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
       {
-        name: "nextjs",
+        name: "zod",
         color: "blue-text-gradient",
       },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: storylens,
+    source_code_link: "https://github.com/tusharchemate/storylens",
   },
 ];
 
