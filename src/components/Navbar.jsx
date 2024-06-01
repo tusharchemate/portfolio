@@ -45,6 +45,8 @@ const Navbar = () => {
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             <span className="sm:block hidden text-sm text-slate-600">
               React | Spring
+              <br />
+              <p className=" text-center text-xs text-slate-600">Developer </p>
             </span>
           </p>
         </Link>
