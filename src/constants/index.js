@@ -15,14 +15,9 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -81,6 +76,14 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Java",
+    icon: "https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png",
+  },
+  {
+    name: "Spring Boot",
+    icon: "https://img.icons8.com/color/48/000000/spring-logo.png",
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -96,18 +99,12 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+
   {
     name: "docker",
     icon: docker,

@@ -20,10 +20,17 @@ const Ball = (props) => {
       <mesh castShadow receiveShadow scale={2.75}>
         <icosahedronGeometry args={[1, 1]} />
         <meshStandardMaterial
-          color='#fff8eb'
           polygonOffset
           polygonOffsetFactor={-5}
           flatShading
+          color="black"
+          transparent={true}
+          opacity={0.25}
+          roughness={0.1}
+          metalness={0.9}
+          envMapIntensity={1}
+          clearcoat={1}
+          clearcoatRoughness={0}
         />
         <Decal
           position={[0, 0, 1]}
@@ -40,7 +47,7 @@ const Ball = (props) => {
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas
-      frameloop='demand'
+      frameloop="always"
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
     >
