@@ -143,7 +143,7 @@ const experiences = [
     company_name: "Geeky Works",
     icon: "https://static.ambitionbox.com/alpha/company/photos/logos/geekyworks-it-solutions.jpg",
     iconBg: "#00B2A4",
-    date: "Jan 2022 - Jan 2023",
+    date: "Nov 2019 - June 2020",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
