@@ -137,7 +137,7 @@ const experiences = [
     ],
   },
   {
-    title: "Software Engineering Inter",
+    title: "Software Engineering Intern",
     company_name: "Geeky Works",
     icon: "https://static.ambitionbox.com/alpha/company/photos/logos/geekyworks-it-solutions.jpg",
     iconBg: "#00B2A4",
